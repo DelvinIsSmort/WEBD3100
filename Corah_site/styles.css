@@ -1,26 +1,32 @@
+
 html {
-    font-size: 16px;
-    scroll-behavior: smooth;
-    height: 100%;
-    overflow-x: hidden;
+  font-size: 16px; /* or 62.5% for easier rem math */
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow-x: hidden;
+  /* To Do - Learn about Box Sizing */
+  /* box-sizing: border-box; */
 }
 
 body {
-    font-family: 'open sans';
+    font-family: 'Open Sans';
 }
+
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'montserrat';
+    font-family: 'Montserrat';
 }
 
 .header-container {
-
+    align-content: center;
+    
 }
 
 .header-inner-container {
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
+    
 }
 
 .nav-container {
@@ -30,27 +36,33 @@ h1,h2,h3,h4,h5,h6 {
     gap: 8px;
 }
 
-.logo-containers {
+.logo-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 8px;
+    padding: 16px;
 }
 
 button {
+    font-family: 'Open Sans';
+    color: aliceblue;
+    font-size: 1.2rem;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 8px;
     padding-bottom: 12px;
     border-radius: 32px;
-    color: white;
     border: none;
 }
 
 .nav-button {
-    background-color: #7b458f;
-    font-family: "open sans", sans-serif;
+    background-color: #7B458F;
 }
+
 .hero-button-01 {
 
 }
+
+
+
