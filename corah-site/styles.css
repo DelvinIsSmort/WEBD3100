@@ -8,4 +8,30 @@
 
 html{
     background: white;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: purple;
+}
+header {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 32px;   
+}
+.seperator {
+    border-top: 2px solid #7b458f;
+}
+
+.brand-logo {
+    width: 128px;
+    height: auto;
+}
+
+.brand-workmark{
+    width: 200px;
+    height: auto;
 }
