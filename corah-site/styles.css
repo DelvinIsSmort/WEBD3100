@@ -13,14 +13,22 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: purple;
+    background-color: white;
 }
 header {
-    background: white;
     display: flex;
     flex-direction: column;
     padding: 32px;
     gap: 32px;   
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
 }
 .seperator {
     border-top: 2px solid #7b458f;
@@ -34,4 +42,22 @@ header {
 .brand-wordmark{
     width: 304px;
     height: auto;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 16px;
+}
+.nav-pills a {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 22px;
+    padding-bottom: 14px;
+    padding-left: 22px;
+    border-radius: 32px;
+    font-weight: 600;
+    color: #7b458f;
 }
