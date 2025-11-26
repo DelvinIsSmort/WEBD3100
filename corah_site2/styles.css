@@ -73,3 +73,12 @@ header {
     color: #7b458f;
     text-decoration: none;
 }
+
+.nav-pills a:hover {
+    background: #420e53;
+    color: #fff;
+    border: 2px solid #7b458f;
+}
+.nav-pills a:active {
+    
+}
